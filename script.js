@@ -3,7 +3,8 @@ const projects = [
   'base-apparel-coming-soon-master',
   'intro-component-with-signup-form-master',
   'single-price-grid-component-master',
-  'ping-coming-soon-page-master'
+  'ping-coming-soon-page-master',
+  'huddle-landing-page-with-alternating-feature-blocks-master',
 ];
 
 const list = document.getElementById('list');
@@ -25,6 +26,6 @@ projects.forEach((project, i) => {
 function formatProjectName(name) {
   return name
     .split('-')
-    .map(word => word[0].toUpperCase() + word.slice(1))
+    .map((word) => word[0].toUpperCase() + word.slice(1))
     .join(' ');
 }
