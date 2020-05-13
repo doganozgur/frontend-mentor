@@ -5,6 +5,7 @@ const projects = [
   'single-price-grid-component-master',
   'ping-coming-soon-page-master',
   'huddle-landing-page-with-alternating-feature-blocks-master',
+  'huddle-landing-page-with-single-introductory-section-master',
 ];
 
 const list = document.getElementById('list');
